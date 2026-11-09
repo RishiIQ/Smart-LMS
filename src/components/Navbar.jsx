@@ -65,7 +65,7 @@ export default function Navbar({ activeTab, setActiveTab, searchQuery, setSearch
                 onClick={() => setActiveTab(item.id)}
                 className={`flex items-center gap-2 px-3.5 py-2 rounded-3xl text-xs lg:text-sm font-medium transition-all duration-200 ${
                   isActive
-                    ? 'bg-white text-emerald-900 shadow-sm border border-stone-200/60 font-semibold'
+                    ? 'bg-lime-200 text-emerald-900 shadow-sm border border-stone-200/60 font-semibold'
                     : 'text-stone-600 hover:text-stone-900 hover:bg-stone-200/50'
                 }`}
               >
