@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Star, Users, ArrowLeft, CheckCircle2, PlayCircle, Award, HelpCircle } from 'lucide-react';
 
 export default function CourseDetails({ course, student, onBack, onEnroll, onStartLesson, onStartQuiz }) {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ArrowLeft, ArrowRight, CheckCircle2, PlayCircle, BookOpen } from 'lucide-react';
 
 export default function LessonViewer({ course, initialLesson, student, onToggleLessonComplete, onBack }) {

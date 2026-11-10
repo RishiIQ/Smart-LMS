@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BookOpen, Award, CheckCircle2, ArrowRight, Clock, Sparkles } from 'lucide-react';
 
 export default function StudentDashboard({ student, courses, onSelectCourse, setActiveTab }) {
@@ -116,7 +116,7 @@ export default function StudentDashboard({ student, courses, onSelectCourse, set
         </div>
 
         {enrolledCoursesList.length === 0 ? (
-          <div className="bg-white rounded-2xl border border-stone-200 p-10 sm:p-12 text-center space-y-4">
+          <div className="bg-lime-100 rounded-2xl border border-stone-200 p-10 sm:p-12 text-center space-y-4">
             <p className="text-stone-500 text-sm">You are not enrolled in any courses yet.</p>
             <button 
               onClick={() => setActiveTab('catalogue')}
@@ -136,7 +136,7 @@ export default function StudentDashboard({ student, courses, onSelectCourse, set
                 <div 
                   key={course.id}
                   onClick={() => onSelectCourse(course)}
-                  className="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm hover:shadow-md transition-all cursor-pointer group flex flex-col justify-between"
+                  className="bg-lime-200/60 rounded-2xl border border-stone-200 overflow-hidden shadow-sm hover:shadow-md transition-all cursor-pointer group flex flex-col justify-between"
                 >
                   <div>
                     <div className="relative h-44 sm:h-48 overflow-hidden bg-stone-100">

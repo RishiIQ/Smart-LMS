@@ -42,7 +42,7 @@ export const initialCourses = [
     rating: 4.8,
     enrolledCount: 980,
     price: "$129",
-    image: "https://www.mindpathtech.com/wp-content/uploads/2025/02/Node.js-Full-Stack-Development-Guide-1.webp",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNWwhEYm6PmtJv0T8kYUVIQDxyaexYnJC8IFLmuNoGWlMDR2RKqK5Fnbiw&s=10",
     description: "Craft buttery-smooth micro-interactions, physics-based spring animations, and tactile feedback systems.",
     lessons: [
       { id: 201, title: "Physics of Spring Animations", duration: "20 mins", content: "Understanding stiffness, damping, and mass for natural user interfaces." },
@@ -96,7 +96,7 @@ export const initialCourses = [
     rating: 4.7,
     enrolledCount: 850,
     price: "$99",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0JujDZQ0a3vpvg0srdz_Xb9HyPChUw2zJ_o-bCKwkAoDpqAh7P8GW-Q&s=10",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD-Y_JrPmjiIWjASeS1I1EwdhzRT44IZaQlEjxPsUeppEMqFi_QA-QJmEF&s=10",
     description: "Master North Star metrics, cohort retention curves, and product-led growth (PLG) loops.",
     lessons: [
       { id: 401, title: "Defining North Star Metrics", duration: "19 mins", content: "Aligning team execution with core customer value realization." },

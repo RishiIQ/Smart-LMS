@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ArrowLeft, Award, CheckCircle2, AlertCircle, RotateCcw } from 'lucide-react';
 
 export default function QuizInterface({ course, student, onBack, onSubmitQuizScore }) {

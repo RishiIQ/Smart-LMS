@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { User, Mail, Award, CheckCircle2, Save, Sparkles } from 'lucide-react';
 
 export default function StudentProfile({ student, onUpdateProfile, courses }) {

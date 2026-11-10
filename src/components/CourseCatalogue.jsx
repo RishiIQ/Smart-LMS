@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Star, Users, Filter } from 'lucide-react';
 
 export default function CourseCatalogue({ courses, student, onEnroll, onSelectCourse, searchQuery, setSearchQuery }) {
@@ -138,7 +138,7 @@ export default function CourseCatalogue({ courses, student, onEnroll, onSelectCo
                   {isEnrolled ? (
                     <button 
                       onClick={() => onSelectCourse(course)}
-                      className="w-full py-2.5 sm:py-3 bg-green-600 text-stone-100 font-semibold rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 hover:bg-stone-200 transition-colors"
+                      className="w-full py-2.5 sm:py-3 bg-green-600 text-stone-100 font-semibold rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 hover:bg-green-800 transition-colors"
                     >
                       Enrolled &bull; View Lessons
                     </button>

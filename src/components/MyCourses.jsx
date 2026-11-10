@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BookOpen, ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export default function MyCourses({ student, courses, onSelectCourse, setActiveTab }) {
