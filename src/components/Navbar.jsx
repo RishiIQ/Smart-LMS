@@ -32,7 +32,7 @@ export default function Navbar({ activeTab, setActiveTab, searchQuery, setSearch
           className="flex items-center gap-3 cursor-pointer group shrink-0"
         >
           <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full text-emerald-50 flex items-center justify-center font-bold text-lg sm:text-xl shadow-md  transition-all">
-            <img src="/public/logo.png" className='rounded-4xl bg-lime-300' alt="logo" />
+            <img src="/logo.png" className='rounded-4xl bg-lime-300' alt="logo" />
           </div>
           <div>
             <span className="text-lg sm:text-xl font-bold tracking-tight text-stone-900 font-serif">SmartLMS</span>
